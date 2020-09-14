@@ -8,13 +8,14 @@
     "build": "react-scripts build"
   },
   "keywords": [],
-  "author": "",
+  "author": "JesterI3d",
   "license": "MIT",
   "devDependencies": {
     "cross-env": "^5.2.1",
     "react-hot-loader": "^4.12.21",
     "react-scripts": "^3.4.1"
   },
+  "homepage": "./",
   "dependencies": {
     "@vkontakte/icons": "^1.27.0",
     "@vkontakte/vk-bridge": "^2.2.2",
