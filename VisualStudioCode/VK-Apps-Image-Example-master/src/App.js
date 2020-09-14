@@ -56,7 +56,7 @@ class App extends React.Component {
 						{
                             user ?
                                 <PanelHeaderContent
-                                    status="VK Apps Image Example"
+                                    status="VK Fixed mini-app"
                                     before={ <Avatar size={ 36 } src={ user.photo_100 } /> }
                                 >
                                     { user.first_name }
@@ -83,7 +83,7 @@ class App extends React.Component {
 						{
 							!!image &&
 							<Div style={{ textAlign: 'center' }}>
-                                <img referrerPolicy="no-referrer" src={ image } alt="remote file" />
+                                <img src={ image } alt="remote file" referrerpolicy="no-referrer"/>
 							</Div>
 						}
                     </Group>
