@@ -16,7 +16,6 @@ import {
     View
 } from '@vkontakte/vkui';
 
-import ImageStatic from './StaticImg.js'
 import '@vkontakte/vkui/dist/vkui.css';
 
 
